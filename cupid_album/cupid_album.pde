@@ -12,7 +12,9 @@ void draw(){
   fill(102,55,14);
   ellipse(276,305,148,267);
     ellipse(776,305,148,267);
-   triangle(160,395,716,313,282,444);
+  
+   noStroke();
+   triangle(161,396,725,320,270,444);
    triangle(785,398,907,415,716,470);
    
    strokeWeight(10);
